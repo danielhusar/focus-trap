@@ -1,0 +1,20 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "Chrome": 50,
+        "ChromeAndroid": 50,
+        "Safari": 9,
+        "ie": 11,
+        "Firefox": 47,
+        "iOS": 9
+      }
+    }],
+    "@babel/preset-flow"
+  ],
+  "plugins": [
+    "@babel/plugin-syntax-class-properties",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-object-rest-spread"
+  ]
+}

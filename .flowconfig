@@ -1,0 +1,17 @@
+[ignore]
+.*/node_modules/fbjs.*
+.*/node_modules/grunt-flow.*
+.*/node_modules/immutable/*
+.*/node_modules/config-chain/*
+.*/.git.*
+
+[include]
+
+[libs]
+flow-typed
+
+[options]
+module.ignore_non_literal_requires=true
+
+[version]
+0.85.0

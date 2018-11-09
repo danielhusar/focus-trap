@@ -4,12 +4,12 @@
 
 ## Install
 
-using npm
+Using npm
 ```sh
-npm install --save-dev @daniel.husar/focus-trap
+npm install @daniel.husar/focus-trap
 ```
 
-or using yarn
+Using yarn
 ```sh
 yarn add @daniel.husar/focus-trap
 ```

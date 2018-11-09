@@ -58,8 +58,8 @@ export default class FocusTrap {
   }
 
   restore() {
-    if (this.document) {
-      removeEventListener(this.document, 'keydown', this.handleFocusTrap);
+    if (this.node) {
+      removeEventListener(this.node, 'keydown', this.handleFocusTrap);
     }
   }
 }

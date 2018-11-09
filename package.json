@@ -1,17 +1,18 @@
 {
   "name": "@daniel.husar/focus-trap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add focus traps to the elements",
   "scripts": {
     "test": "yarn lint && yarn test",
     "unit": "jest",
     "lint": "flow --quiet",
-    "build": "babel src/index.js --out-file dest/index.js",
+    "build": "babel src/index.js --out-file dest/index.js && babel src/helpers.js --out-file dest/helpers.js",
     "prepublish": "yarn build"
   },
   "main": "dest/index.js",
   "files": [
-    "dest/index.js"
+    "dest/index.js",
+    "dest/helpers.js"
   ],
   "author": "Daniel Husar",
   "repository": {

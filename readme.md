@@ -2,6 +2,10 @@
 
  > Add focus traps around elements.
 
+Adding a focus traps is important part of making your site accessible. The most common example where you want to set up a focus trap is a modal. While modal is open, the user shouldn't be able to tab outside of it, and focus should be locked within the modal elements. You have to remember to make sure there is always a way how to exit this focus trap. In modal example it's usually the escape key, or close button in the corner.
+
+ [Demo](https://codesandbox.io/s/4rn8vm4nv0)
+
 ## Install
 
 Using npm

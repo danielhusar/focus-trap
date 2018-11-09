@@ -14,9 +14,10 @@ test('getAllFocusableElements returns all focusable elements', () => {
 
 test('getAllFocusableElements filter out non focusable elements', () => {
   document.body.innerHTML = `
-    <input type="file"/>
     <input type="hidden"/>
     <div tabIndex="-1"></div>
+    <div></div>
+    <span></span>
   `;
   expect(getAllFocusableElements(document).length).toBe(0);
 });

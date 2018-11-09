@@ -3,9 +3,7 @@ export const KEYS = {
 };
 
 export const getAllFocusableElements = context =>
-  Array.from(
-    context.querySelectorAll('button, [href], input:not([type="file"]):not([type="hidden"]), select, textarea, [tabindex]:not([tabindex="-1"])')
-  );
+  Array.from(context.querySelectorAll('button, [href], input:not([type="hidden"]), select, textarea, [tabindex]:not([tabindex="-1"])'));
 
 export const addEventListener = (node, eventName, callback) => {
   if (node.addEventListener) {
